@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+* {
+  overflow-x: hidden;
+}
+
+.title {
+  text-align: center;
+}
+
+.form-content {
+  top: 40%;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.form-content #link {
+  margin: 0 auto;
+  width: 70%;
+  height: 2.1rem;
+  padding: 0.2rem 1.1rem;
+  border: 3px solid #000;
+  display: block;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.form-content #shorten-link {
+  margin: 0 auto;
+  width: 70%;
+  padding: 0.6rem 1.1rem;
+  border: 3px solid #000;
+  display: block;
+  font-size: 1.1rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#shorten-link:hover {
+  background-color: #333;
+}
+
+.credits {
+  position: fixed;
+  top: 90%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.short-link {
+  margin: 10px auto;
+  width: 60%;
+  background-color: #e1e1e1;
+  padding: .6rem;
+}
+/*# sourceMappingURL=app.css.map */
